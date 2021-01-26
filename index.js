@@ -162,7 +162,7 @@ hafizh.on('group-participants-update', async (anu) => {
 				}
 			}
 			const botNumber = hafizh.user.jid
-			const ownerNumber = ["62895414817057@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6289514468104@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? tod.participant : tod.key.remoteJid
 			const groupMetadata = isGroup ? await hafizh.groupMetadata(from) : ''
